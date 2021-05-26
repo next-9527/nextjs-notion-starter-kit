@@ -33,11 +33,13 @@ module.exports = {
   
     
   // Utteranc.es comments via GitHub issue comments (optional)
-  cusdisConfig: {
-      appId: '9f0910f4-a295-4612-a1b5-45fd5f3ba8f0', // data-app-id
-      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
-    },
+<script src="https://utteranc.es/client.js"
+        repo="next-9527 / nextjs-notion-starter-kit"
+        issue-term="pathname"
+        theme="icy-dark"
+        crossorigin="anonymous"
+        async>
+</script>
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
