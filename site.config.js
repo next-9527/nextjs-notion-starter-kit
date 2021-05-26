@@ -1,9 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
   rootNotionPageId: '41f134ec58544aefa19c07096937ed25',
-    cusdis: {
-  appId: '9f0910f4-a295-4612-a1b5-45fd5f3ba8f0' // your website id
-},
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -34,6 +31,14 @@ module.exports = {
   // NOTE: this requires you to set up an external image proxy
   imageCDNHost: null,
 
+  comment: {
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
+  cusdisConfig: {
+      appId: '9f0910f4-a295-4612-a1b5-45fd5f3ba8f0', // data-app-id
+      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
+      scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
+    },
+    
   // Utteranc.es comments via GitHub issue comments (optional)
   utterancesGitHubRepo: null,
 
