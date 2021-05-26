@@ -1,6 +1,9 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
   rootNotionPageId: '41f134ec58544aefa19c07096937ed25',
+    cusdis: {
+  appId: '9f0910f4-a295-4612-a1b5-45fd5f3ba8f0' // your website id
+},
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -33,8 +36,6 @@ module.exports = {
 
   // Utteranc.es comments via GitHub issue comments (optional)
   utterancesGitHubRepo: null,
-  
-  cusdis: appId: '9f0910f4-a295-4612-a1b5-45fd5f3ba8f0' // your website id , 
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
