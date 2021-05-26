@@ -30,13 +30,12 @@ module.exports = {
   // image CDN host to proxy all image requests through (optional)
   // NOTE: this requires you to set up an external image proxy
   imageCDNHost: null,
-
+  
+    
+  // Utteranc.es comments via GitHub issue comments (optional)
   cusdis: {
       appId: '9f0910f4-a295-4612-a1b5-45fd5f3ba8f0', // data-app-id
   },
-    
-  // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
