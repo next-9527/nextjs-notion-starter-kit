@@ -33,13 +33,7 @@ module.exports = {
   
     
   // Utteranc.es comments via GitHub issue comments (optional)
-<script src="https://utteranc.es/client.js"
-        repo="next-9527 / nextjs-notion-starter-kit"
-        issue-term="pathname"
-        theme="icy-dark"
-        crossorigin="anonymous"
-        async>
-</script>
+  utterancesGitHubRepo: "next-9527 / nextjs-notion-starter-kit",
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
